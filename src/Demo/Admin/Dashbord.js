@@ -8,7 +8,7 @@ import { getAllUsersApi } from "../../apis/knowledgecareapis";
 import isEmpty from "lodash/isEmpty";
 import get from "lodash/get";
 
-import logo1 from "./assets/images/logo.svg";
+import logo1 from "./assets/images/dashboard.jpg";
 // import logo2 from './assets/images/logo-mini.svg';
 import circle from "./assets/images/dashboard/circle.svg";
 // import './assets/vendors/css/vendor.bundle.base.css';
@@ -102,7 +102,7 @@ const Dashbord = () => {
                 >
                   <div className="nav-profile-img">
                     <img
-                      src={require("./assets/images/faces/face1.jpg")}
+                      src={require("./assets/images/faces/admin_face.jpg")}
                       alt="image"
                     />
                     <span className="availability-status online"></span>
@@ -131,7 +131,7 @@ const Dashbord = () => {
                 <a href="#" className="nav-link">
                   <div className="nav-profile-image">
                     <img
-                      src={require("./assets/images/faces/face1.jpg")}
+                      src={require("./assets/images/faces/admin_face.jpg")}
                       alt="profile"
                     />
                     <span className="login-status online"></span>
